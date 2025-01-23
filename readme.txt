@@ -130,6 +130,8 @@ Please submit the [GitHub issue](https://github.com/kkarpieszuk/wc-price-history
 
 = {VERSION} =
 * New: Added action to add custom fields to settings page. (#137)
+* New: Added filter for the lowest price HTML before displaying it. (#139)
+* New: Added filter for the display text from template. (#139)
 * Fixed: Prices displayed with shortcode were not possible to filter to remove decimals. (#141)
 
 = 2.1.6 =
