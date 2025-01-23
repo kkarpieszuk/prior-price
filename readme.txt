@@ -129,6 +129,8 @@ Please submit the [GitHub issue](https://github.com/kkarpieszuk/wc-price-history
 == Changelog ==
 
 = {VERSION} =
+
+= 2.1.7 =
 * New: Added action to add custom fields to settings page. (#137)
 * New: Added filter for the lowest price HTML before displaying it. (#139)
 * New: Added filter for the display text from template. (#139)
