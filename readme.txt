@@ -14,7 +14,7 @@ Donate link: https://buycoffee.to/wpzlecenia
 What was the lowest price recently? Build customer trust through transparency! Track and display product price history in WooCommerce store.
 == Description ==
 
-Track WooCommerce© Products prior prices history and display the lowest price in the last 30 days. This plugin allows your WC shop to be compliant with European law which specifies price reduction announcement policy.
+[WC Price History](https://wcpricehistory.com) plugin allows you to track WooCommerce© Products prior prices history and display the lowest price in the last 30 days. This plugin allows your WC shop to be compliant with European law which specifies price reduction announcement policy.
 
 == Installation ==
 
