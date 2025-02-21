@@ -54,6 +54,11 @@ class SettingsData {
 			$update                              = true;
 		}
 
+		if ( ! isset( $settings['variable_product_before_selection'] ) ) {
+			$settings['variable_product_before_selection'] = 'lowest_all';
+			$update                                      = true;
+		}
+
 		if ( ! isset( $settings[ FirstScan::OPTION_NAME ] ) ) {
 			$settings[ FirstScan::OPTION_NAME ] = FirstScan::SCAN_NOT_STARTED;
 			$update                             = true;
