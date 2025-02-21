@@ -364,6 +364,47 @@ class SettingsPage {
 							</td>
 						</tr>
 						<tr>
+							<th scope="row"><?php esc_html_e( 'Variable products, before selection:', 'wc-price-history' ); ?></th>
+							<td>
+								<fieldset id="wc-price-history-variable-product-before-selection-fieldset">
+									<p class="description">
+										<?php esc_html_e( 'When a customer selects a product variant, its lowest price is displayed. But what should be displayed before the user makes a choice? ', 'wc-price-history' ); ?>
+									</p>
+									<p>
+										<label>
+											<input
+												type="radio"
+												name="wc_price_history_settings[variable_product_before_selection]"
+												value="lowest_all"
+												<?php checked( isset( $settings['variable_product_before_selection'] ) ? $settings['variable_product_before_selection'] : false, 'lowest_all' ); ?>
+											/>
+											<?php esc_html_e( 'Find the lowest price among all variants and display it.', 'wc-price-history' ); ?>
+										</label>
+										<br>
+										<label>
+											<input
+												type="radio"
+												name="wc_price_history_settings[variable_product_before_selection]"
+												value="lowest_range"
+												<?php checked( isset( $settings['variable_product_before_selection'] ) ? $settings['variable_product_before_selection'] : false, 'lowest_range' ); ?>
+											/>
+										<?php esc_html_e( 'Display range of the lowest prices of all variants.', 'wc-price-history' ); ?>
+										</label>
+										<br>
+										<label>
+											<input
+												type="radio"
+												name="wc_price_history_settings[variable_product_before_selection]"
+												value="lowest_hide"
+												<?php checked( isset( $settings['variable_product_before_selection'] ) ? $settings['variable_product_before_selection'] : false, 'lowest_hide' ); ?>
+											/>
+											<?php esc_html_e( 'Hide the lowest price.', 'wc-price-history' ); ?>
+										</label>
+									</p>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
 							<th scope="row"><?php esc_html_e( 'When displaying minimal price:', 'wc-price-history' ); ?></th>
 							<td>
 								<fieldset>
