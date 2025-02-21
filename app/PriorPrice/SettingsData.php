@@ -260,4 +260,20 @@ class SettingsData {
 
 		update_option( 'wc_price_history_settings', $settings );
 	}
+
+	/**
+	 * Get variable product before selection setting.
+	 *
+	 * @since {VERSION}
+	 *
+	 * @return string
+	 */
+	public function get_variable_product_before_selection() : string {
+
+		$settings = get_option( 'wc_price_history_settings' );
+		if ( ! isset( $settings['variable_product_before_selection'] ) ) {
+			return 'lowest_all';
+		}
+		return $settings['variable_product_before_selection'];
+	}
 }
